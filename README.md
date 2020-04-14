@@ -29,7 +29,7 @@ The script is a Jupyter Notebook using Python 3.7. After installing Jupyter (e.g
 Supplementary analysis (e.g. David analysis, smFISH) are available upon request.
 
 ## Author personal note
-The code has initially not been written in the optic of being shared, and is therefore not up to PEP8 standards. However, we decided to make it publicly available to keep our research as transparent as possible. We will update this code with a cleaner version as soon as possible. In the meanwhile, if anything is unclear, do not hesitate to contact the authors (cf. below).
+The code may not be up to PEP8 standards as it was intially not supposed to be shared. However, we decided to make it publicly available to keep our research as transparent as possible. We will update this code with a cleaner version as soon as possible. In the meanwhile, if anything is unclear, do not hesitate to contact the authors (cf. below).
 
 ## Question
-In case of question about the code, please contact colas.droin [at] epfl.ch. In case of question about the study, please contact felix.naef [at] epfl.ch
+In case of question about the code, please contact colas.droin [at] epfl.ch and jakob.elkholtei [at] outlook.com. In case of question about the study, please contact felix.naef [at] epfl.ch
