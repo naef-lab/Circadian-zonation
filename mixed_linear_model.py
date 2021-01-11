@@ -887,7 +887,7 @@ class MixedLM(base.LikelihoodModel):
         # If `groups` is a variable name, retrieve the data for the
         # groups variable.
         group_name = "Group"
-        if isinstance(groups, string_types):
+        if isinstance(groups, str):
             group_name = groups
             groups = np.asarray(data[groups])
         else:
@@ -1080,7 +1080,7 @@ class MixedLM(base.LikelihoodModel):
         http://statweb.stanford.edu/~tibs/stat315a/Supplements/fuse.pdf
         """
 
-        if isinstance(method, string_types) and (method.lower() != 'l1'):
+        if isinstance(method, str) and (method.lower() != 'l1'):
             raise ValueError("Invalid regularization method")
 
         # If method is a smooth penalty just optimize directly.
