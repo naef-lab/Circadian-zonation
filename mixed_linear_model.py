@@ -152,7 +152,6 @@ from scipy import sparse
 import pandas as pd
 import patsy
 from collections import OrderedDict
-from statsmodels.compat import range
 import warnings
 from statsmodels.tools.sm_exceptions import ConvergenceWarning
 from statsmodels.base._penalties import Penalty
