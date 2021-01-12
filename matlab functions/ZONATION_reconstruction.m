@@ -69,7 +69,7 @@ pval_perm=1-normcdf(Z);
 q_vals = pval_adjust(pval_perm,'BH');
 
 clearvars -except SE MeanGeneExp seq_data mat_norm gene_names maxP Pmat fun_ZT q_vals fun_output_path
-save([fun_output_path fun_ZT])
+save('-mat7-binary',[fun_output_path fun_ZT])
 
 end
 

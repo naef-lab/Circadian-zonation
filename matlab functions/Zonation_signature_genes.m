@@ -80,7 +80,7 @@ for i=1:NUM_ZONES
     Gamma_params(i,:) = gamfit(CLorig(cells_in_layer));
 end
 
-save(output_path, 'Gamma_params','NUM_ZONES', 'genes_cv', 'genes_pn')
+save('-mat7-binary',output_path, 'Gamma_params','NUM_ZONES', 'genes_cv', 'genes_pn')
 
 end
 
