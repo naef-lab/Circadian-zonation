@@ -35,9 +35,9 @@ for i=1:length(files)
     temp = strsplit(files(i).name,'_');
     ZT = temp{end}(1:5);
     filename = strcat([dirname 'exp_data/' ZT '.mat']);
-    save(filename, 'cell_barcodes', 'gene_names', 'seq_data', 'ZT')
+    save('-mat7-binary',filename, 'cell_barcodes', 'gene_names', 'seq_data', 'ZT')
     if i==1
-        save(strcat([dirname 'all_genes.mat']))
+        save('-mat7-binary',strcat([dirname 'all_genes.mat']))
     end
 end
 
